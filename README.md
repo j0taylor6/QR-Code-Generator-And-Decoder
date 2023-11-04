@@ -13,11 +13,11 @@ This is a simple QR code generator and decoder tool that allows you to create QR
 
 # Screenshots
 
-![Main Page](https://imgur.com/Wuqh7QX)
+![Main Page](https://github.com/j0taylor6/QR-Code-Generator-And-Decoder/assets/149825449/0269d971-3d14-4374-b073-d315b0ae9cf2)
 
-![QR Code Generator](https://imgur.com/GIZyWLN)
+![QR Code Generator](https://github.com/j0taylor6/QR-Code-Generator-And-Decoder/assets/149825449/b2f30f81-f1e5-4c56-9922-1cab963fee8e)
 
-![QR Code Decoder](https://imgur.com/a/TtIXuJX)
+![QR Code Decoder](https://github.com/j0taylor6/QR-Code-Generator-And-Decoder/assets/149825449/e4acc5bb-1928-4377-b180-a68497e52b04)
 
 # Usage Examples
 
@@ -30,7 +30,7 @@ Background Color: White
 
 Output Format: PNG
 
-![QR Code Example](https://imgur.com/a/GcKUUAZ)
+![QR Code Example](https://github.com/j0taylor6/QR-Code-Generator-And-Decoder/assets/149825449/c4944603-1f73-4b46-8034-7df375987709)
 
 ### Example 2: Customizing QR Code Colors
 
@@ -42,13 +42,13 @@ Background Color: Yellow
 
 Output Format: JPEG
 
-![QR Code Example](https://imgur.com/H5vUEot)
+![QR Code Example](https://github.com/j0taylor6/QR-Code-Generator-And-Decoder/assets/149825449/8953669d-5fb5-43dc-a741-e7c4d19ed1a0)
 
 ### Example 3: Decoding Basic QR Code
-![Decoding Basic QR Code Photo](https://imgur.com/a/GcKUUAZ)
+![Decoding Basic QR Code Photo](https://github.com/j0taylor6/QR-Code-Generator-And-Decoder/assets/149825449/325e18a8-f532-457f-9ff0-34217ab1eabc)
 
 ### Example 4: Decoding Customizing QR Code Colors
-![Decoding Basic QR Code Photo](https://imgur.com/wmZwGY9)
+![Decoding Colour QR Code Photo](https://github.com/j0taylor6/QR-Code-Generator-And-Decoder/assets/149825449/8edd813f-f248-4ccf-bb35-365aa1800b6e)
 
 # QR Generation Test Cases
 1. Basic String Content: **PASS**
