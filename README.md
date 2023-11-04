@@ -9,6 +9,8 @@ This is a simple QR code generator and decoder tool that allows you to create QR
 
 **Multiple Output Formats:** Save the generated QR code in different formats, such as PNG, JPEG, BMP, and GIF.
 
+**QR Decoder:** Input a QR image and it will output the plain text.
+
 # Screenshots
 
 ![Main Page](https://imgur.com/Wuqh7QX)
