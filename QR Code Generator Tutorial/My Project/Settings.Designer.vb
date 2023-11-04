@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.QR_Code_Generator_Tutorial.My.MySettings
+        Friend ReadOnly Property Settings() As Global.QR_Code_Generator.My.MySettings
             Get
-                Return Global.QR_Code_Generator_Tutorial.My.MySettings.Default
+                Return Global.QR_Code_Generator.My.MySettings.Default
             End Get
         End Property
     End Module
