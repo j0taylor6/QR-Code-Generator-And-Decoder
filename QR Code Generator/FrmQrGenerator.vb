@@ -79,7 +79,7 @@ Public Class FrmQrGenerator
 
         Try
             Using img As New Bitmap(PictureBox1.Image)
-                Dim format As ImageFormat = ImageFormats(cbFormatChoice.SelectedItem.ToString())
+                Dim format As ImageFormat = ImageFormats(cbFormatChoice.SelectedItem())
                 img.Save(SaveFileDialog1.FileName, format)
             End Using
         Catch ex As Exception
