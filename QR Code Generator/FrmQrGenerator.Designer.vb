@@ -41,9 +41,10 @@ Partial Class FrmQrGenerator
         Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 38)
+        Me.PictureBox1.Location = New System.Drawing.Point(16, 47)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(258, 212)
+        Me.PictureBox1.Size = New System.Drawing.Size(344, 261)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -52,9 +53,11 @@ Partial Class FrmQrGenerator
         '
         Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(12, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(16, 15)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.MaxLength = 153
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(258, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(343, 22)
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -62,9 +65,10 @@ Partial Class FrmQrGenerator
         '
         Me.btnGenerate.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnGenerate.Location = New System.Drawing.Point(12, 289)
+        Me.btnGenerate.Location = New System.Drawing.Point(16, 356)
+        Me.btnGenerate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnGenerate.Name = "btnGenerate"
-        Me.btnGenerate.Size = New System.Drawing.Size(258, 27)
+        Me.btnGenerate.Size = New System.Drawing.Size(344, 33)
         Me.btnGenerate.TabIndex = 2
         Me.btnGenerate.Text = "Generate"
         Me.btnGenerate.UseVisualStyleBackColor = True
@@ -78,9 +82,10 @@ Partial Class FrmQrGenerator
         '
         Me.btnSave.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnSave.Location = New System.Drawing.Point(12, 363)
+        Me.btnSave.Location = New System.Drawing.Point(16, 447)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(258, 27)
+        Me.btnSave.Size = New System.Drawing.Size(344, 33)
         Me.btnSave.TabIndex = 3
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
@@ -89,9 +94,10 @@ Partial Class FrmQrGenerator
         '
         Me.btnBack.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnBack.Location = New System.Drawing.Point(12, 396)
+        Me.btnBack.Location = New System.Drawing.Point(16, 487)
+        Me.btnBack.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(258, 27)
+        Me.btnBack.Size = New System.Drawing.Size(344, 33)
         Me.btnBack.TabIndex = 4
         Me.btnBack.Text = "Go Back"
         Me.btnBack.UseVisualStyleBackColor = True
@@ -100,9 +106,10 @@ Partial Class FrmQrGenerator
         '
         Me.btnBackgroundColor.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnBackgroundColor.Location = New System.Drawing.Point(12, 256)
+        Me.btnBackgroundColor.Location = New System.Drawing.Point(16, 315)
+        Me.btnBackgroundColor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnBackgroundColor.Name = "btnBackgroundColor"
-        Me.btnBackgroundColor.Size = New System.Drawing.Size(125, 27)
+        Me.btnBackgroundColor.Size = New System.Drawing.Size(167, 33)
         Me.btnBackgroundColor.TabIndex = 5
         Me.btnBackgroundColor.Text = "Background Color"
         Me.btnBackgroundColor.UseVisualStyleBackColor = True
@@ -111,9 +118,10 @@ Partial Class FrmQrGenerator
         '
         Me.btnForegroundColor.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnForegroundColor.Location = New System.Drawing.Point(143, 256)
+        Me.btnForegroundColor.Location = New System.Drawing.Point(191, 315)
+        Me.btnForegroundColor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnForegroundColor.Name = "btnForegroundColor"
-        Me.btnForegroundColor.Size = New System.Drawing.Size(127, 27)
+        Me.btnForegroundColor.Size = New System.Drawing.Size(169, 33)
         Me.btnForegroundColor.TabIndex = 6
         Me.btnForegroundColor.Text = "Foreground Color"
         Me.btnForegroundColor.UseVisualStyleBackColor = True
@@ -121,25 +129,27 @@ Partial Class FrmQrGenerator
         'cbFormatChoice
         '
         Me.cbFormatChoice.FormattingEnabled = True
-        Me.cbFormatChoice.Location = New System.Drawing.Point(12, 336)
+        Me.cbFormatChoice.Location = New System.Drawing.Point(16, 414)
+        Me.cbFormatChoice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cbFormatChoice.Name = "cbFormatChoice"
-        Me.cbFormatChoice.Size = New System.Drawing.Size(258, 21)
+        Me.cbFormatChoice.Size = New System.Drawing.Size(343, 24)
         Me.cbFormatChoice.TabIndex = 7
         '
         'lblSaveFormat
         '
         Me.lblSaveFormat.AutoSize = True
-        Me.lblSaveFormat.Location = New System.Drawing.Point(12, 319)
+        Me.lblSaveFormat.Location = New System.Drawing.Point(16, 393)
+        Me.lblSaveFormat.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSaveFormat.Name = "lblSaveFormat"
-        Me.lblSaveFormat.Size = New System.Drawing.Size(70, 13)
+        Me.lblSaveFormat.Size = New System.Drawing.Size(87, 16)
         Me.lblSaveFormat.TabIndex = 8
         Me.lblSaveFormat.Text = "Save Format:"
         '
         'FrmQrGenerator
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(282, 429)
+        Me.ClientSize = New System.Drawing.Size(376, 528)
         Me.Controls.Add(Me.lblSaveFormat)
         Me.Controls.Add(Me.cbFormatChoice)
         Me.Controls.Add(Me.btnForegroundColor)
@@ -150,6 +160,7 @@ Partial Class FrmQrGenerator
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FrmQrGenerator"
         Me.Text = "QR Code Generator"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

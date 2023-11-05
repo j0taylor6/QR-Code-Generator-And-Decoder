@@ -5,7 +5,7 @@ Public Class FrmQrGenerator
     Private _backgroundColor As Color = Color.White
     Private foregroundColorDialog As New ColorDialog()
     Private backgroundColorDialog As New ColorDialog()
-    Private Const MaxTextLength As Integer = 123
+    Private Const MaxTextLength As Integer = 153
     Private QR_Generator As New MessagingToolkit.QRCode.Codec.QRCodeEncoder()
     Private ReadOnly ImageFormats As Dictionary(Of String, ImageFormat) = New Dictionary(Of String, ImageFormat) From {
         {"PNG", ImageFormat.Png},
