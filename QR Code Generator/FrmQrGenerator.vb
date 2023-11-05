@@ -55,7 +55,7 @@ Public Class FrmQrGenerator
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
         If PictureBox1.Image Is Nothing Then
             DisplayMessage("Please generate a QR code before saving.", "QR Code Not Found", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            Return
+            Exit Sub
         End If
 
         SetSaveFileDialogFilter()
@@ -74,7 +74,7 @@ Public Class FrmQrGenerator
         If String.IsNullOrEmpty(SaveFileDialog1.FileName) Then
             DisplayMessage("File name cannot be empty.")
             e.Cancel = True
-            Return
+            Exit Sub
         End If
 
         Try
