@@ -1,9 +1,9 @@
 # QR-Code-Generator-And-Decoder
-This is a simple QR code generator and decoder tool that allows you to create QR codes from input strings of up to 122 characters. You can customize the foreground and background colors of the QR code. Additionally, it provides the option to save the generated QR code in various formats, including PNG, JPEG, BMP, and GIF.
+This is a simple QR code generator and decoder tool that allows you to create QR codes from input strings of up to 153 characters. You can customize the foreground and background colors of the QR code. Additionally, it provides the option to save the generated QR code in various formats, including PNG, JPEG, BMP, and GIF.
 
 # Features
 
-**Generate QR Codes:** Input a string (up to 122 characters) and create a QR code from it.
+**Generate QR Codes:** Input a string (up to 153 characters) and create a QR code from it.
 
 **Color Customization:** Customize the foreground and background colors of the QR code to suit your preferences.
 
@@ -58,10 +58,10 @@ Output Format: JPEG
     - Include alphabetic characters, both lowercase and uppercase.
     - Include numeric characters.
     - Include special characters, such as **`! @ # $ % ^ & * ( ) - _ = +`**.
-3. **Extended ASCII and Unicode**: **FAIL - Cannot use extended ASCII**
+3. **Extended ASCII and Unicode**: **PASS - Able to use Chinese to create and decode QRs**
     - Generate QR codes with extended ASCII characters.
     - Generate QR codes with Unicode characters, including emojis, non-Latin scripts like Cyrillic, Chinese, Arabic, etc.
-4. **Long Text Strings**: **PASS - Can do text up to 122**
+4. **Long Text Strings**: **PASS - Can do text up to 153**
     - Generate a QR code with a text string near the maximum capacity of a QR code (which varies depending on the version and error correction level).
 5. **Encoding Binary Data**: **PASS - Utilized Base64 Encoding** 
     - Test if your generator can encode binary data, such as a small image or file, into a QR code.
